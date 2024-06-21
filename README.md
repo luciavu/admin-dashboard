@@ -6,7 +6,7 @@ Developing a full dashboard design with CSS grid using HTML/CSS.
 ## Preview
 ![alt text](img/preview.png)
 ## Links
-Live Link: https://github.com/luciavu/admin-dashboard
+Live Link: https://luciavu.github.io/admin-dashboard/
 
 Assignment: https://www.theodinproject.com/paths/full-stack-javascript/courses/intermediate-html-and-css
 ## Credits
