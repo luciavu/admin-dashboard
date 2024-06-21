@@ -16,7 +16,7 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 4.5fr;
+    grid-template-columns: 1fr 4fr;
     width: 100%;
 }
 
@@ -102,21 +102,18 @@ body {
     align-items: flex-end;
 }
 
-.hello {
-    font-size: 0.9rem;
-}
-
-.usertag {
-    font-size: 1.2rem;
+.usertag, .usertag>* {
+    font-size: 1.35rem;
 }
 
 .actions {
     display: flex;
+    justify-content: flex-end;
     gap: 1.8rem;
 }
 
 button {
-    place-self: end;
+    align-self: end;
     cursor: pointer;
     border-radius: 3rem;
     border: none;
@@ -155,12 +152,16 @@ button {
 
 .functions li, .support-and-privacy li {
     margin-bottom: 1.4rem;
-    font-size: 1rem;
     font-weight: 600;
+}
+
+.functions a, .support-and-privacy a {
+    font-size: 1.2rem;
 }
 
 .functions i, .support-and-privacy i {
     margin-right: 1.2rem;
+    font-size: 1.2rem;
 }
 
 /* Projects */
@@ -308,14 +309,14 @@ button {
     margin: 0 !important;
 }
 
-.trending-tag {
+.trending-tag a {
     font-weight: 600;
     font-size: 0.9rem;
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.25rem;
 }
 
 .bio {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
 }
 
 
